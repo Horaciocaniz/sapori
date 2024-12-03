@@ -1005,3 +1005,13 @@ http://www.templatemo.com/tm-515-eatery
     }
   }
 
+
+  /* Estilo para las imágenes */
+.profile-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid var(--white-color);
+}
