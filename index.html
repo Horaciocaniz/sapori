@@ -70,12 +70,13 @@ Prueba cambio
                          <li><a href="#about" class="smoothScroll">Sobre Nosotros</a></li>
                          <li><a href="#team" class="smoothScroll">Chef</a></li>
                          <li><a href="#menu" class="smoothScroll">Menu</a></li>
+                         <li><a href="#carrito" class="smoothScroll">Carrito</a></li>
                         
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
                          <li><a href="https://wa.link/z6azkw"><i class="fa fa-whatsapp"></i> ¡Escríbenos!</a></li>
-                         <a href="#footer" class="section-btn">Haz tu pedido</a>
+                         <a href="#carrito" class="section-btn">Haz tu pedido</a>
                     </ul>
                </div>
 
@@ -202,9 +203,10 @@ Prueba cambio
                               <img src="images/menuAlfajoresMediaLB.JPG" class="img-responsive" alt="">
 
                                    <div class="menu-info">
-                                        <div class="menu-item">
+                                        <div class="menu-item producto">
                                              <h3>Alfajores Azúcar Glass</h3>
                                              <p>1/2 lb de Alfajores en bolsa</p>
+                                             <button class="agregar-carrito btn btn-primary btn-sm"  data-id="1">Agregar al carrito</button>
                                         </div>
                                         <div class="menu-price">
                                              <span>Q30.00</span>
@@ -220,10 +222,11 @@ Prueba cambio
                              <!--<a href="images/menu-image2.jpg" class="image-popup" title="Self-made Salad">--> 
                                    <img src="images/menuAlfajoresDecorado.JPG" class="img-responsive" alt="">
 
-                                   <div class="menu-info">
+                                   <div class="menu-info producto">
                                         <div class="menu-item">
                                              <h3>Alfajores Decorados</h3>
                                              <p>Caja 8 unidades</p>
+                                             <button class="agregar-carrito btn btn-primary btn-sm">Agregar al carrito</button>
                                         </div>
                                         <div class="menu-price">
                                              <span>Q70.00</span>
@@ -239,10 +242,11 @@ Prueba cambio
                               <!--<a href="images/menu-image3.jpg" class="image-popup" title="Chinese Noodle"> -->
                                    <img src="images/menuAlfajoresAnicillo.JPG" class="img-responsive" alt="">
 
-                                   <div class="menu-info">
+                                   <div class="menu-info producto">
                                         <div class="menu-item">
                                              <h3>Alfajores Anicillos</h3>
                                              <p>Caja de 8 unidades</p>
+                                             <button class="agregar-carrito btn btn-primary btn-sm">Agregar al carrito</button>
                                         </div>
                                         <div class="menu-price">
                                              <span>Q60.00</span>
@@ -258,13 +262,15 @@ Prueba cambio
                               <!-- <a href="images/menu-image4.jpg" class="image-popup" title="Rice Soup"> --> 
                                    <img src="images/menuCorona.JPG" class="img-responsive" alt="">
 
-                                   <div class="menu-info">
+                                   <div class="menu-info producto">
                                         <div class="menu-item">
                                              <h3>Corona de bollos</h3>
-                                             <p>Con ajo, cebolla, pimiento y romero</p>
+                                             <p>Con especias</p>
+                                             <button class="agregar-carrito btn btn-primary btn-sm">Agregar al carrito</button>
                                         </div>
                                         <div class="menu-price">
                                              <span>Q50.00</span>
+                                             
                                         </div>
                                    </div>
                               </a>
@@ -278,9 +284,10 @@ Prueba cambio
                                    <img src="images/menuTrenza.JPG" class="img-responsive" alt="">
 
                                    <div class="menu-info">
-                                        <div class="menu-item">
+                                        <div class="menu-item producto">
                                              <h3>Trenza rellena</h3>
                                              <p>De Jamón y queso mozzarella</p>
+                                             <button class="agregar-carrito btn btn-primary btn-sm">Agregar al carrito</button>
                                         </div>
                                         <div class="menu-price">
                                              <span>Q100.00</span>
@@ -297,9 +304,10 @@ Prueba cambio
                                    <img src="images/menuZepelin.JPG" class="img-responsive" alt="">
 
                                    <div class="menu-info">
-                                        <div class="menu-item">
+                                        <div class="menu-item producto">
                                              <h3>Zepelin</h3>
                                              <p>Navideño con frutas cristalizadas</p>
+                                             <button class="agregar-carrito btn btn-primary btn-sm">Agregar al carrito</button>
                                         </div>
                                         <div class="menu-price">
                                              <span>Q65.00</span>
@@ -314,7 +322,30 @@ Prueba cambio
           </div>
      </section>
 
+     <section id="carrito">
+          <div class="container">
+               <div class="row">
 
+                    <div class="col-md-6 col-sm-12">
+                         <div class="about-info">
+                              <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
+          <h2>
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+               <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+             </svg>
+          Carrito</h2>
+          <ul id="lista-carrito">
+              <!-- Los productos agregados se mostrarán aquí -->
+          </ul>
+          <button type="submit" id="comprar">Comprar</button>
+          <button id="limpiar-carrito">Limpiar carrito</button> <!-- Nuevo botón -->
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+      </section>
 
 
      <!-- FOOTER -->
@@ -386,6 +417,7 @@ Prueba cambio
 
 
      <!-- SCRIPTS -->
+     <script src="js/carrito.js"></script>
      <script src="js/jquery.js"></script>
      <script src="js/bootstrap.min.js"></script>
      <script src="js/jquery.stellar.min.js"></script>

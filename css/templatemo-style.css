@@ -602,13 +602,15 @@ http://www.templatemo.com/tm-515-eatery
 
   .menu-thumb .menu-info h3,
   .menu-thumb .menu-info p,
-  .menu-thumb .menu-info span {
+  .menu-thumb .menu-info span
+  
+   {
     transform: translateY(100%);
     opacity: 0;
     display: block;
     transition: 0.5s 0.2s;
     color: #ffffff;
-    z-index: 2;
+    z-index: 1;
     position: relative;
   }
 
@@ -635,6 +637,7 @@ http://www.templatemo.com/tm-515-eatery
     background: rgba(0,0,0,0.8);
   }
 
+  
 
 
   /*---------------------------------------
